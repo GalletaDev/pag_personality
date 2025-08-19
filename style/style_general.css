@@ -13,8 +13,10 @@
 body {
   font-family: 'Lato', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(to right, #AE01AE, #000);
-  /* background-repeat: no-repeat; */
-  /* Degradado morado */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
   color: #eee;
   justify-content: center;
   /* centra horizontal */
@@ -162,11 +164,15 @@ img {
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
 }
 
+.not_image_shadow {
+  box-shadow: none;
+}
 
 .image_size {
-  width: 48px;
-  height: 48px;
+  width: 124px;
+  height: 124px;
 }
+
 
 
 
@@ -185,7 +191,7 @@ img {
 .contair_list {
   background-color: #000000;
   padding: 3.4rem 0 3.4rem 0;
-  width: 100vw;
+  width: 100%;
   margin-bottom: 8px;
 }
 
@@ -235,16 +241,16 @@ img {
 
 
 .image_select_view {
-  width: auto;
-  max-width: 512px;
+  width: 90%;
+  max-width: 650px;
   height: auto;
   max-height: 512px;
 }
 
 .image_decoration_view {
   width: auto;
-  max-width: 128px;
-  height: 312px;
+  max-width: 250px;
+  height: 400px;
 }
 
 
@@ -254,37 +260,34 @@ img {
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(2, 1fr);
   background-color: rgba(53, 0, 52, 0.7);
-  width: 70vw;
+  width: 65%;
   height: auto;
+  place-items: center;
   margin: 20px auto;
   gap: 5px;
   padding: 40px;
   border-radius: 15px;
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 
 
 .seccion1 {
-  display: grid;
   grid-column: span 1;
   grid-row: span 1;
 }
 
 .seccion2 {
-  display: grid;
   grid-column: span 3;
   grid-row: span 2;
 }
 
 .seccion3 {
-  display: grid;
   grid-column: span 1;
   grid-row: span 2;
 }
 
 .seccion4 {
-  display: grid;
   grid-column: span 1;
   grid-row: span 1;
 }
@@ -293,25 +296,28 @@ img {
 
 .section_box_game {
   display: flex;
-  background-color: rgb(178, 0, 209);
+  background-color: rgb(160, 0, 188);
   border-radius: 30px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: auto;
+  width: 70%;
   height: 128px;
+  /* margin: 0 20px 0 20px; */
 }
 
 
 .section_box_flex {
   display: flex;
-  background-color: rgb(75, 0, 189);
-  border-radius: 30px;
+  background-color: rgb(174, 0, 140);
+  border-radius: 50px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: auto;
+  /* max-width: 720px; */
   height: 400px;
+  margin: 0 20px 0 20px;
 }
 
 .section_box_imagen_decoration {
@@ -321,7 +327,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: auto;
+  width: 150px;
   height: 400px;
 }
 
@@ -329,7 +335,7 @@ img {
 
 
 
-@media (max-width: 820px) {
+@media (max-width: 1090px) {
   .container {
     width: 90%;
     padding: 20px;

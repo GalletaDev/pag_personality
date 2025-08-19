@@ -6,7 +6,9 @@ body {
   font-family: 'Lato', sans-serif;
   background: linear-gradient(to right, #000, #8a2be2);
   background-repeat: no-repeat;
-  /* Degradado morado */
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
   color: #eee;
   justify-content: center;
   /* centra horizontal */
@@ -143,7 +145,7 @@ footer.foster {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1090px) {
   .container {
     width: 100vh;
     padding: 20px;

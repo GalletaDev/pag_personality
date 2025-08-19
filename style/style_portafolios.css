@@ -12,8 +12,10 @@ body {
     display: flex;
     font-family: 'Lato', sans-serif;
     background: linear-gradient(to right, #AE01AE, #000);
-    /* background-repeat: no-repeat; */
-    /* Degradado morado */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
     color: #eee;
     justify-content: center;
     /* centra horizontal */
@@ -178,7 +180,7 @@ img {
 .contair_list {
     background-color: #000000;
     padding: 3.4rem 0 3.4rem 0;
-    width: 99.2vw;
+    width: 100%;
     margin-bottom: 20px;
 }
 
@@ -241,7 +243,7 @@ img {
 
 
 
-@media (max-width: 915px) {
+@media (max-width: 1090px) {
     .container {
         width: 90%;
         padding: 20px;
