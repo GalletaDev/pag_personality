@@ -75,7 +75,7 @@ ol {
 
 
 
-li {
+.list_decoration {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
@@ -86,19 +86,26 @@ li {
 }
 
 
-li:hover {
+.list_decoration:hover {
   color: white;
   background: #000;
   box-shadow: 1 7px 20px rgba(0, 0, 0, 0.2);
 }
 
 
-li img {
+.list_decoration img {
   width: 120px;
   height: auto;
   border-radius: 8px;
   margin-right: 20px;
 }
+
+
+.list_button {
+  display: flex;
+  justify-content: right;
+}
+
 
 
 a {
@@ -134,8 +141,8 @@ a:hover {
   display: flex;
   margin: 30px auto 0 auto;
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 152px;
+  height: 152px;
   object-fit: cover;
   object-fit: cover;
   border: 4px solid #7F007F;
