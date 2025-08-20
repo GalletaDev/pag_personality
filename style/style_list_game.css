@@ -51,13 +51,38 @@ body {
 
 .container {
   background-color: rgba(0, 0, 0, 0.7);
-  width: 70%;
+  width: 60%;
   height: auto;
   margin: 50px auto;
   padding: 50px 30px 30px 40px;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
 }
+
+.container_poxtwitter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  width: 45%;
+}
+
+
+.twitter-tweet {
+    min-height: 220px;      /* Evita que se vea “pelado” al cargar */
+    max-width: 600px;       /* Ajusta según tu diseño */
+    width: 100%;            /* Responsivo */
+    margin: 7px auto;      /* Centrado horizontal con espacio arriba/abajo */
+    box-sizing: border-box; /* Evita que padding rompa el ancho */
+}
+
+/* Opcional: centrado del contenido interno del blockquote */
+.twitter-tweet p {
+    text-align: left;       /* Mantiene los textos y hashtags alineados */
+    word-wrap: break-word;  /* Evita que enlaces largos rompan el layout */
+}
+
+
 
 
 h2 {
@@ -141,6 +166,10 @@ img {
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
 }
 
+.not_image_shadow {
+  box-shadow: none;
+}
+
 .image_size {
   width: 48px;
   height: 48px;
@@ -208,7 +237,7 @@ img {
 
 @media (max-width: 1090px) {
   .container {
-    width: 85%;
+    width: 55%;
     padding: 20px;
     margin: 30px auto;
   }
@@ -221,6 +250,10 @@ img {
     padding: 45px;
   }
 
+  .twitter-tweet {
+    min-height: 180px;
+    padding: 0 5px;
+  }
 
   h1 {
     font-size: 30px;
