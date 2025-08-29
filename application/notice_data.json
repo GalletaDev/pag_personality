@@ -1,0 +1,25 @@
+[
+    {
+        "title": "GalletaDev Web",
+        "info": [
+            "Actualización de pagina noticias y contenido que se puede añadir mediante JSON",
+            "Uso de .JS avanzado para actualizaciones.",
+            "-Trabajando en los estilos y decoraciones de la pagina"
+        ],
+        "day": "2025-08-29"
+    },
+    {
+        "title": "Little Secrets-pag2",
+        "info": [
+            "Aniversario de un 1 año de desarrollo del proyecto <a class='button_decoration_links_direct' href='https://x.com/ArtickOw78959' target=_blank'>Twitter aqui</a>"
+        ],
+        "day": "2025-07-22"
+    },
+    {
+        "title": "Little Secrets",
+        "info": [
+            "Inicio del proyecto game, noticias disponible en <a class='button_decoration_links_direct' href='https://x.com/ArtickOw78959' target=_blank'>Twitter aqui</a>"
+        ],
+        "day": "2024-07-22"
+    }
+]

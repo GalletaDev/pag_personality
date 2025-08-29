@@ -11,7 +11,7 @@ Support for ko-fi: [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https:/
 - 🎨 **CSS**: Estilos modernos con colores agradables, tipografías limpias y diseño adaptable.
 - ✨ **JavaScript**: Animaciones simples para que todo se vea más vivo (como botones que se mueven o textos que aparecen suavemente).
 
----
+------------------------------------------------
 
 ## 📁 Estructura del proyecto
 
@@ -20,11 +20,27 @@ Support for ko-fi: [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https:/
 ├── index.html ← Página principal y un listado de html
 ├── /style ← Estilos modernos (CSS)
 ├── /script ← animaciones de particulas (JavaScript)
-├── /img ← Carpeta de imágenes (puede incluir fotos subidas desde Cloudinary)
+├── /img ← Carpeta de imágenes (puede incluir fotos subidas desde Cloudinary o no)
+├── /application ← Carpeta con recursos (JSON) para noticias y foros acumulados
 └── /html ← otros html de importancia
 
 
----
+------------------------------------------------
+
+
+## 👨🏽‍💻 Lenguajes mas recientes y usados 👨🏽‍💻
+
+-Javacritps .JS
+-JavaScript Object Notation .JSON
+
+## Etiquetados de pagina web
+
+-HTML
+-CSS
+
+
+------------------------------------------------
+
 
 
 ## 📸 Uso de Cloudinary (opcional)

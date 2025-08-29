@@ -75,6 +75,26 @@ ol {
 
 
 
+.button_decoration_top {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  margin-left: 24px;
+  padding: 8px 8px;
+  background-color: #054792de;
+  border: 2px solid #602020;
+  border-radius: 30px;
+  margin: 18px 0 18px 0;
+  transition: all 0.2s ease;
+}
+
+.button_decoration_top:hover {
+  background: #000;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+  transform: scale(1.07);
+}
+
+
 .list_decoration {
   display: flex;
   align-items: center;

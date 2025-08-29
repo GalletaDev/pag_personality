@@ -36,7 +36,7 @@ body {
 
 .logo_mark img {
   position: fixed;
-  justify-content: left;
+  display: block;
   top: 10px;
   left: 0;
   z-index: 1;
@@ -69,17 +69,24 @@ body {
 
 
 .twitter-tweet {
-    min-height: 220px;      /* Evita que se vea “pelado” al cargar */
-    max-width: 600px;       /* Ajusta según tu diseño */
-    width: 100%;            /* Responsivo */
-    margin: 7px auto;      /* Centrado horizontal con espacio arriba/abajo */
-    box-sizing: border-box; /* Evita que padding rompa el ancho */
+  min-height: 220px;
+  /* Evita que se vea “pelado” al cargar */
+  max-width: 600px;
+  /* Ajusta según tu diseño */
+  width: 100%;
+  /* Responsivo */
+  margin: 7px auto;
+  /* Centrado horizontal con espacio arriba/abajo */
+  box-sizing: border-box;
+  /* Evita que padding rompa el ancho */
 }
 
 /* Opcional: centrado del contenido interno del blockquote */
 .twitter-tweet p {
-    text-align: left;       /* Mantiene los textos y hashtags alineados */
-    word-wrap: break-word;  /* Evita que enlaces largos rompan el layout */
+  text-align: left;
+  /* Mantiene los textos y hashtags alineados */
+  word-wrap: break-word;
+  /* Evita que enlaces largos rompan el layout */
 }
 
 
