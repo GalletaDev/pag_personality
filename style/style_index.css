@@ -190,19 +190,19 @@ a:hover {
 @media (max-width: 1090px) {
   .container {
     width: 90%;
-    padding: 20px;
-    margin: 30px auto;
+    padding: 12px;
+    margin: 25px auto;
   }
 
   h1 {
-    font-size: 32px;
+    font-size: 22px;
   }
 
   p,
   li,
   a {
-    font-size: 15px;
-    padding: 6px 6px 6px 6px;
+    font-size: 12px;
+    padding: 4px 4px 4px 4px;
   }
 
   footer {
