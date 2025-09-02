@@ -1,0 +1,7 @@
+Título: GalletaDev Web
+Fecha: 2025-09-02
+Info:
+- Actualización de pagina noticias y contenido que se puede añadir mediante Python y formatos de txt
+- actualización de .JS 
+- Decoration mejorado de pagina
+- Mas information de lo que hago y rendimiento

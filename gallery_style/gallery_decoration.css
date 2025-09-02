@@ -1,0 +1,69 @@
+/* Galería estilo Pinterest */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.gallery-item {
+    width: 100%;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    object-fit: cover;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.modal-content {
+    position: relative;
+    width: 75%;
+    height: auto;
+    margin-bottom: 15px;
+    margin-left: 11vw;
+}
+
+#caption {
+    color: #fff;
+    font-size: 1rem;
+    word-break: break-word;
+}
+
+#close {
+    position: absolute;
+    top: 20px; right: 60px;
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+#close:hover {
+    color: #ff6666;
+}
+
+/* Responsivo */
+@media screen and (max-width: 1090px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}

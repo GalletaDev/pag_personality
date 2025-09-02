@@ -7,6 +7,7 @@
 	<title>Pictures - GalletaDev</title>
 	<link rel="stylesheet" href="style/style_general.css">
 	<link rel="stylesheet" href="style/style_loading.css">
+    <link rel="stylesheet" href="gallery_style/gallery_decoration.css">
 	<link
 		href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
 		rel="stylesheet">
@@ -17,21 +18,28 @@
 <body>
 	<section>
 		<div id="loader" class="loader"></div>
-		<div class="logo_mark"><img class="not_image_shadow" src="img/logo.png" alt=""></div>
+		<div class="logo_mark"><img class="not_image_shadow_neutral" src="img/logo.png" alt=""></div>
 		<div class="background-overlay"><canvas id="particle-canvas"></canvas></div>
 	</section>
 
-	<section>
-		<ul class="contair_list">
+	<section class="contair_list" id="main-content">
+		<ul>
 			<li><a class="button_decoration" href="list_.html">Volver</a></li>
 		</ul>
 	</section>
 
     <!-- main -->
 
+    <section class="gallery">
+        <div id="gallery-container"></div>
+    </section>
 
+    <div id="modal" class="modal">
+        <span id="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="caption"></div>
+    </div>
     
-
     <!-- main -->
 
 	<!--footer-->
@@ -41,7 +49,7 @@
 	<!--scripts-->
 	<script src="scripts/particles.js"></script>
 	<script src="scripts/loading.js"></script>
-
+    <script src="scripts/gallery.js"></script>
 
 
 
