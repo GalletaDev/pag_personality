@@ -163,13 +163,13 @@ li:hover {
   transform: scale(1.07);
 }
 
-img {
+.decoration_image_size {
+  display: block;
   width: 100px;
   height: 100px;
   object-fit: cover;
   border-radius: 6px;
   margin: 0px 10px;
-  display: block;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
 }
 
