@@ -1,0 +1,17 @@
+# Ignorar archivos temporales
+*.log
+*.tmp
+*~
+*.comment
+
+# Ignora archivo en especifico
+SECURITY.md
+LICENSE.txt
+
+
+# Ignorar carpeta de compilación
+/build/
+/error/
+
+# Ignorar configuración local
+.env

@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+Título: Little Secrets
+Fecha: 2025-07-22
+Info:
+=======
+Título: Little Secrets
+Fecha: 2025-07-22
+Info:
+>>>>>>> 5230150908e7febf9df228510bb2e7f19d55a2cf
+- Aniversario de un 1 año de desarrollo del proyecto <a class='button_decoration_links_direct' href='https://x.com/ArtickOw78959' target=_blank'>Twitter aqui</a>
