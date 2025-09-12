@@ -19,11 +19,7 @@ Support for ko-fi: [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https:/
 │
 ├── index.html ← Página principal y un listado de html
 ├── /style ← Estilos modernos (CSS)
-<<<<<<< HEAD
 ├── /script ← animaciones de partículas (JavaScript)
-=======
-├── /script ← animaciones de particulas (JavaScript)
->>>>>>> 5230150908e7febf9df228510bb2e7f19d55a2cf
 ├── /img ← Carpeta de imágenes (puede incluir fotos subidas desde Cloudinary o no)
 ├── /application ← Carpeta con recursos (JSON) para noticias y foros acumulados
 └── /html ← otros html de importancia
@@ -34,11 +30,7 @@ Support for ko-fi: [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https:/
 
 ## 👨🏽‍💻 Lenguajes mas recientes y usados 👨🏽‍💻
 
-<<<<<<< HEAD
 -JavaScript .JS
-=======
--Javacritps .JS
->>>>>>> 5230150908e7febf9df228510bb2e7f19d55a2cf
 -JavaScript Object Notation .JSON
 
 ## Etiquetados de pagina web
