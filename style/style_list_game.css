@@ -1,6 +1,7 @@
 /* styles_list_game.css */
 /* Todo de lo que sea aquí es de list_.html */
 
+<<<<<<< HEAD
 @font-face {
   font-family: 'Lato';
   src: url('../fonts/Lato-Bold.ttf') format('ttf');
@@ -11,6 +12,8 @@
 
 
 
+=======
+>>>>>>> cbd434e604a1312bba35e52a2ec8913f32d0fb1f
 * {
   margin: 0;
   padding: 0;
@@ -164,6 +167,7 @@ h2 {
 } */
 
 
+<<<<<<< HEAD
 dd {
   background: linear-gradient(90deg, #3f2060, #5700b4);
   padding: 25px;
@@ -191,6 +195,8 @@ a {
 }
 
 
+=======
+>>>>>>> cbd434e604a1312bba35e52a2ec8913f32d0fb1f
 h1 {
   font-size: 42px;
   text-align: center;
@@ -356,12 +362,16 @@ li:hover {
 
 
 
+<<<<<<< HEAD
 @media (max-width: 1400px) {
   .logo_mark img {
     display: none;
   }
 
 }
+=======
+
+>>>>>>> cbd434e604a1312bba35e52a2ec8913f32d0fb1f
 
 
 

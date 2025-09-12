@@ -5,13 +5,21 @@
 *.comment
 
 # Ignora archivo en especifico
+<<<<<<< HEAD
 # nombre.extension
+=======
+SECURITY.md
+LICENSE.txt
+>>>>>>> cbd434e604a1312bba35e52a2ec8913f32d0fb1f
 
 
 # Ignorar carpeta de compilación
 /build/
 /error/
+<<<<<<< HEAD
 /vscode/
+=======
+>>>>>>> cbd434e604a1312bba35e52a2ec8913f32d0fb1f
 
 # Ignorar configuración local
 .env

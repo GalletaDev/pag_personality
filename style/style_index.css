@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 @font-face {
@@ -9,6 +10,8 @@
 }
 
 
+=======
+>>>>>>> cbd434e604a1312bba35e52a2ec8913f32d0fb1f
 body {
   background: linear-gradient(120deg, #AE01AE, #000);
   background-repeat: no-repeat;
@@ -76,6 +79,7 @@ body {
 
 
 
+<<<<<<< HEAD
 .button_cookies_decoration {
   background-color: #c000c0;
   padding: 10px;
@@ -88,6 +92,9 @@ body {
 .button_cookies_decoration:hover {
   background-color: #000;
 }
+=======
+
+>>>>>>> cbd434e604a1312bba35e52a2ec8913f32d0fb1f
 
 
 
@@ -125,9 +132,12 @@ body {
 }
 
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> cbd434e604a1312bba35e52a2ec8913f32d0fb1f
 h1 {
   text-align: center;
   font-size: 48px;
@@ -312,11 +322,14 @@ li:hover {
 }
 
 
+<<<<<<< HEAD
 
 a {
   color: #fff;
 }
 
+=======
+>>>>>>> cbd434e604a1312bba35e52a2ec8913f32d0fb1f
 /* a {
   text-decoration: none;
   color: #fff;
