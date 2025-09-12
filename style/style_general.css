@@ -22,7 +22,6 @@ body::-webkit-scrollbar-thumb {
   border-radius: 12px;
 }
 
-<<<<<<< HEAD
 
 @font-face {
   font-family: 'Lato';
@@ -35,8 +34,6 @@ body::-webkit-scrollbar-thumb {
 
 
 
-=======
->>>>>>> cbd434e604a1312bba35e52a2ec8913f32d0fb1f
 /* ############################## */
 /* Un boton que aparece para enviarte al menu */
 .button_return_menu {
@@ -93,10 +90,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
   margin: 30px;
-=======
->>>>>>> cbd434e604a1312bba35e52a2ec8913f32d0fb1f
 }
 
 
@@ -202,14 +196,11 @@ h2 {
   margin-bottom: 20px;
 }
 
-<<<<<<< HEAD
 a {
   color: #fff;
 }
 
 
-=======
->>>>>>> cbd434e604a1312bba35e52a2ec8913f32d0fb1f
 /* ############################## */
 /* Otro boton decorativo para links */
 
@@ -571,11 +562,7 @@ img {
 
 .main_flex_grid {
   display: grid;
-<<<<<<< HEAD
   max-width: 150vw;
-=======
-  max-width: 150vh;
->>>>>>> cbd434e604a1312bba35e52a2ec8913f32d0fb1f
   height: auto;
   grid-template-columns: 0.7fr 0.7fr;
   grid-template-rows: 0.7fr 0.7fr;
@@ -673,7 +660,6 @@ img {
 
 /* ################################################ */
 /* Comandos para móviles */
-<<<<<<< HEAD
 @media (max-width: 1400px) {
   .logo_mark img {
     display: none;
@@ -696,8 +682,6 @@ img {
 }
 
 
-=======
->>>>>>> cbd434e604a1312bba35e52a2ec8913f32d0fb1f
 
 @media (max-width: 1090px) {
 
@@ -742,11 +726,7 @@ img {
   .contair_list {
     /* width: 100%;
     height: 50%; */
-<<<<<<< HEAD
     padding: 1.2rem 0 1.2rem 0;
-=======
-    padding: 50px;
->>>>>>> cbd434e604a1312bba35e52a2ec8913f32d0fb1f
   }
 
   .container_portafolios {
@@ -794,7 +774,6 @@ img {
   }
 
 
-<<<<<<< HEAD
   .titule_h1_decoration {
     font-size: 30px;
     background-color: black;
@@ -805,8 +784,6 @@ img {
   }
 
 
-=======
->>>>>>> cbd434e604a1312bba35e52a2ec8913f32d0fb1f
   p,
   li,
   a {
@@ -854,23 +831,15 @@ img {
     display: flex;
     flex-direction: column;
     height: auto;
-<<<<<<< HEAD
     padding: 25px;
     margin: 0;
-=======
-    padding: 10px;
->>>>>>> cbd434e604a1312bba35e52a2ec8913f32d0fb1f
     justify-items: center;
     gap: 10px;
   }
 
 
   .main_center {
-<<<<<<< HEAD
     width: auto;
-=======
-    width: 450px;
->>>>>>> cbd434e604a1312bba35e52a2ec8913f32d0fb1f
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -941,26 +910,6 @@ img {
 
 
 
-<<<<<<< HEAD
-=======
-  .button_decoration_links_direct {
-    text-decoration: solid;
-    padding: 0;
-    background-color: none;
-    border-radius: 0;
-    color: #fff;
-    font-size: 16px;
-    transition: all 0.2s ease;
-  }
-
-
-  .button_decoration_links_direct:hover {
-    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
-    transform: scale(1.07);
-  }
-
-
->>>>>>> cbd434e604a1312bba35e52a2ec8913f32d0fb1f
   .button_return_menu {
     top: 90%;
     transition: none;
