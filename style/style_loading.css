@@ -1,0 +1,27 @@
+/* Loader spinner */
+
+
+.loader {
+  border: 12px solid #eee;
+  border-top: 15px solid #aa4fff; /* Morado */
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  background: transparent;
+  /* Nueva solución: animación usa solo rotate */
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}

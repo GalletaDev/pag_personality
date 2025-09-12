@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Programming - GalletaDev</title>
+    <!-- PrismJS tema oscuro -->
+    <link href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism-tomorrow.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="style/style_programming.css" /> -->
+    <link rel="stylesheet" href="style/style_loading.css" />
+	<link rel="icon" href="img/logo.png" type="image/png">
+	<link rel="stylesheet" href="style/style_general.css">
+</head>
+
+<body>
+    <!-- Loading & logo -->
+    <section>
+        <div id="loader" class="loader"></div>
+        <div class="logo_mark"><img src="img/logo.png" /></div>
+        <div class="background-overlay"><canvas id="particle-canvas"></canvas></div>
+    </section>
+
+    <!--contenido principal-->
+    <main class="container" id="main-content">
+        <h1>🍪 Programacion 🍪</h1>
+        <p>Puedes encontrar mucha informacion de python y renpy
+            sientete libre de observar
+        </p>
+
+        <!--seccion de codigo visual-->
+        <section>
+            <pre><code class="language-python">
+# Desde renpy
+label start:
+    "¡Hola, mundo!"
+    return
+        </code></pre>
+
+            <pre><code class="language-python">
+# Desde python
+print("¡Hola, mundo!")
+        </code></pre>
+
+        </section>
+
+        <!--imagen mas boton-->
+        <section>
+            <ul>
+                <!-- <li><img src="img/ruby.png" alt="logo1" /></li> -->
+                <li>
+                    <img src="img/python.png" alt="logo4" />
+                    <a href="index.html">Python + Renpy</a>
+                </li>
+                <li>
+                    <img src="img/renpy.png" alt="logo5" />
+                    <a href="index.html">Solo Renpy</a>
+                </li>
+            </ul>
+        </section>
+
+
+        <p>Aqui puedes saber como funcionaria python y renpy en sincronia.</p>
+        <a href="list_.html">Volver a navegador</a>
+    </main>
+
+    <!--footer-->
+	<footer class="foster">
+		@GalletaDev 2025 | Todos los derechos reservados.
+		Pagina hecho en España | Español
+	</footer>
+    <!--scripts-->
+    <script src="scripts/particles.js"></script>
+    <script src="scripts/loading.js"></script>
+
+    <!-- PrismJS -->
+    <script defer src="https://cdn.jsdelivr.net/npm/prismjs/prism.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-python.min.js"></script>
+    <!-- <script defer src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-ruby.min.js"></script> -->
+
+</body>
+
+</html>
