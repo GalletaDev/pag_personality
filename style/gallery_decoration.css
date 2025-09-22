@@ -1,0 +1,75 @@
+/* Galería estilo Pinterest */
+
+#gallery-container {
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(200px, 3fr));
+    gap: 15px;
+    column-gap: 5px;
+    justify-items: center;
+    padding: 60px 60px 60px 60px;
+}
+
+.gallery-item {
+    width: 100%;
+    height: 200px;      /* altura fija */
+    object-fit: cover;  /* recorta proporcionalmente */
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.modal-content {
+    width: 35%;        /* todas ocupan la mitad del ancho */
+    height: auto;      /* altura se ajusta automáticamente */
+    display: block;
+    margin: 0 auto;    /* centrado horizontal */
+}
+
+#caption {
+    color: #fff;
+    font-size: 1rem;
+    word-break: break-word;
+}
+
+#close {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    color: #fff;
+    font-size: 6rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+#close:hover {
+    color: #cc00ff;
+}
+
+/* Responsivo */
+@media screen and (max-width: 1090px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}

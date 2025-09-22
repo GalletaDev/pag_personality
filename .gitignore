@@ -1,0 +1,22 @@
+# Ignorar archivos temporales
+*.log
+*.tmp
+*~
+*.comment
+
+# Ignora archivo en especifico
+# nombre.extension
+SECURITY.md
+LICENSE.txt
+
+
+
+# Ignorar carpeta de compilación
+/build/
+/error/
+/.vscode/
+/vscode/
+/old/
+
+# Ignorar configuración local
+.env

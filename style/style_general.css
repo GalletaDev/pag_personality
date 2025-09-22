@@ -1,0 +1,953 @@
+/* styles_general.css */
+/* ############################## */
+/* Código general */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* ############################## */
+/* Cambia el scroll del navegador */
+
+body::-webkit-scrollbar {
+  width: 12px;
+  position: relative;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(77, 0, 80);
+  border-radius: 12px;
+}
+
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Bold.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+/* ############################## */
+/* Un boton que aparece para enviarte al menu */
+.button_return_menu {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  position: fixed;
+  z-index: 500;
+  font-size: 20px;
+  left: 90%;
+  top: 90%;
+  padding: 15px;
+  color: white;
+  border-radius: 70px;
+  text-decoration: none;
+  background-color: #a080d3;
+  border: 2px solid #8831e6;
+  transition: all 0.4s ease;
+}
+
+.button_return_menu:hover {
+  background-color: white;
+}
+
+/* ############################## */
+/* Para colocar una imagen de fondo como decoracion */
+.imagen_background_fixed {
+  position: fixed;
+  z-index: -999;
+  left: 400px;
+  width: 1440px;
+  height: auto;
+  opacity: 0.2;
+  background: none;
+  box-shadow: none;
+}
+
+/* ############################## */
+/* Cambia el body y cuerpo */
+body {
+  display: flex;
+  font-family: 'Lato', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(90deg, #AE01AE, #000);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
+  color: #eee;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+
+/* ############################## */
+
+/* Manipula el banner */
+
+.contair_list {
+  background-color: #000000;
+  width: 100%;
+  height: 140px;
+  max-height: 140px;
+}
+
+.banner_ul_list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  flex-wrap: wrap;
+  padding: 0px 0px 0px 0px;
+  align-items: center;
+}
+
+
+.banner {
+  display: flex;
+  flex-direction: column;
+}
+
+.background-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.a_button_none {
+  background-color: none;
+}
+
+.logo_mark img {
+  position: fixed;
+  display: block;
+  top: 10px;
+  left: 0;
+  z-index: 25;
+  height: auto;
+  pointer-events: none;
+  opacity: 1.0;
+  border-radius: 15px;
+}
+
+
+.logo_mark_list img {
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: auto;
+  pointer-events: none;
+  opacity: 1.0;
+}
+
+/* ############################## */
+
+/* Un container que se usa mucho */
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100vh;
+  height: auto;
+  margin: 30px auto;
+  padding: 50px 30px 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+
+/* Funciones globales para que todos sean igual */
+
+h1 {
+  font-size: 42px;
+  text-align: center;
+  text-shadow: 0 0 10px #d8bfff;
+}
+
+p {
+  font-size: 24px;
+  text-align: center;
+  text-shadow: 0 0 5px #a080d3;
+  margin-bottom: 25px;
+}
+
+
+h2 {
+  font-size: 36px;
+  text-align: center;
+  text-shadow: 0 0 10px #d8bfff;
+  background: linear-gradient(to right, #612261, #46004d);
+  border-radius: 25px;
+  padding: 30px 40px 30px 40px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #fff;
+}
+
+
+/* ############################## */
+/* Otro boton decorativo para links */
+
+
+.button_decoration_links_direct {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 16px 28px;
+  background-color: #b300cede;
+  border: 2px solid #3f2060;
+  border-radius: 30px;
+  margin: 40px 0 40px 0;
+  transition: all 0.2s ease;
+}
+
+.button_decoration_links_direct:hover {
+  background: #000;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+  transform: scale(1.07);
+}
+
+/* ############################## */
+
+/* Un boton comun para usar en casi todo */
+
+
+
+.button_decoration {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 16px 28px;
+  background-color: #9c009c;
+  border: 2px solid #3f2060;
+  border-radius: 30px;
+  margin: 40px 0 40px 0;
+  transition: all 0.4s ease;
+}
+
+.button_decoration:hover {
+  background: #000;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+  transform: scale(1.03);
+}
+
+/* ############################## */
+/* Para que una imagen se comporte como boton */
+
+.button_link_img {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 0;
+}
+
+.button_link_img li {
+  display: flex;
+  align-items: center;
+}
+
+.button_link_img a {
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+.button_link_img a:hover {
+  transform: scale(1.07);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+}
+
+.button_link_img img {
+  width: 64px;
+  height: 64px;
+  display: block;
+}
+
+/* ############################## */
+/* Cosas para manipular pequeñas cosas */
+
+/* ul {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  flex-wrap: wrap;
+  padding: 0px 0px 0px 0px;
+  align-items: center;
+} */
+
+/* li {
+  transition: transform 0.2s ease;
+}
+
+li:hover {
+  transform: scale(1.07);
+} */
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin: 0px 10px;
+  display: block;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+}
+
+.not_image_shadow_great {
+  width: 254px;
+  height: 254px;
+  box-shadow: none;
+}
+
+
+.not_image_shadow_neutral {
+  box-shadow: none;
+}
+
+.not_image_shadow {
+  box-shadow: none;
+}
+
+
+.image_size {
+  width: 48px;
+  height: 48px;
+}
+
+/* ############################## */
+
+/* el foster comúnmente como footer */
+
+.foster {
+  display: flex;
+  /* margin-top: 220px; */
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  color: #cdb4db;
+  border-top: 1px solid #6a0dad88;
+  font-style: italic;
+  justify-content: center;
+}
+
+
+
+
+
+
+/* ############################## */
+/* Chorrade de bandcamp */
+
+
+
+/* Estilos generales para el contenedor de los iframes */
+.bandcamp-player {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* Espacio entre los iframes */
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+/* Estilos para cada iframe */
+.bandcamp-iframe {
+  border-radius: 0;
+  /* Bordes redondeados */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  /* Sombra para darle profundidad */
+  transition: transform 0.1s ease, box-shadow 0.3s ease;
+  /* Transiciones suaves */
+  width: 100%;
+  /* Hace que el iframe ocupe el 100% del contenedor */
+  max-width: 700px;
+  /* Limita el ancho máximo del iframe */
+  height: 120px;
+  /* Altura fija */
+}
+
+/* Efectos al pasar el mouse sobre el iframe */
+.bandcamp-iframe:hover {
+  transform: scale(1.02);
+  /* Efecto de escala */
+  box-shadow: 0 8px 20px rgba(212, 0, 255, 0.613);
+  /* Sombra más intensa */
+}
+
+/* ################################## */
+
+/* manipulación de imágenes */
+
+.image_select_view {
+  width: 90%;
+  max-width: 650px;
+  height: auto;
+  max-height: 512px;
+}
+
+.image_decoration_view {
+  width: auto;
+  max-width: 250px;
+  height: 400px;
+}
+
+/* ###################################### */
+
+/* Un container de supongo de portafolios */
+
+.container_game {
+  display: grid !important;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  background-color: rgba(53, 0, 52, 0.7);
+  width: 65%;
+  height: auto;
+  place-items: center;
+  margin: 20px auto;
+  gap: 5px;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.seccion1 {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.seccion2 {
+  grid-column: span 3;
+  grid-row: span 2;
+}
+
+.seccion3 {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.seccion4 {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+
+
+.section_box_game {
+  display: flex;
+  background-color: rgb(160, 0, 188);
+  border-radius: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 128px;
+  /* margin: 0 20px 0 20px; */
+}
+
+
+.section_box_flex {
+  display: flex;
+  background-color: rgb(174, 0, 140);
+  border-radius: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  /* max-width: 720px; */
+  height: 400px;
+  margin-top: 20px;
+  margin: 0 20px 0 20px;
+}
+
+.section_box_imagen_decoration {
+  display: flex;
+  background-color: rgb(75, 0, 81);
+  border-radius: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 400px;
+}
+
+/* ################################## */
+
+/* Decoracion para moviles */
+
+
+.button_decoration_movil {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 11px 23px;
+  background-color: #b300cede;
+  border: 2px solid #3f2060;
+  border-radius: 30px;
+  margin: 40px 0 40px 0;
+  transition: all 0.2s ease;
+}
+
+.button_decoration_movil:active {
+  background: #000;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+/* ################################## */
+/* style de portafolios css */
+
+
+.list_ul_title {
+  margin: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.list_ul_images {
+  margin: 20px;
+}
+
+
+.titule_h1_decoration {
+  font-size: 45px;
+  background-color: black;
+  padding: 20px 80px 20px 80px;
+  text-align: center;
+  text-shadow: 0 2px 10px #d8bfff;
+  border-radius: 25px;
+}
+
+.container_portafolios {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 85%;
+  height: auto;
+  margin: 20px auto;
+  padding: 30px 30px 30px 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.61);
+}
+
+/* 
+.main_flex_align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+
+
+.main_flex_grid {
+  display: grid;
+  max-width: 150vw;
+  height: auto;
+  grid-template-columns: 0.7fr 0.7fr;
+  grid-template-rows: 0.7fr 0.7fr;
+  padding: 10px;
+  justify-items: center;
+  gap: 20px;
+}
+
+
+.one {
+
+  background-color: rgb(17, 7, 16);
+  color: #fff;
+  animation: rotateOut 0.6s ease-out;
+  transition: transform 0.1s ease;
+}
+
+.two {
+  background-color: rgb(17, 7, 16);
+  color: #fff;
+  animation: rotateIn 0.6s ease-out;
+  transition: transform 0.1s ease;
+}
+
+.three {
+  background-color: rgb(17, 7, 16);
+  color: #fff;
+  animation: rotateOut 0.6s ease-out;
+  transition: transform 0.1s ease;
+}
+
+.four {
+  background-color: rgb(17, 7, 16);
+  color: #fff;
+  animation: rotateIn 0.6s ease-out;
+  transition: transform 0.1s ease;
+}
+
+.one:hover {
+  transform: rotate(-2deg);
+}
+
+.two:hover {
+  transform: rotate(2deg);
+}
+
+.three:hover {
+  transform: rotate(-2deg);
+}
+
+.four:hover {
+  transform: rotate(2deg);
+}
+
+
+/* ################################## */
+
+
+/* Animaciones con css */
+
+@keyframes rotateIn {
+  0% {
+    transform: rotate(12deg);
+    scale: (0.9);
+    opacity: 0;
+  }
+
+  100% {
+    transform: rotate(0deg);
+    scale: (1.0);
+    opacity: 1;
+  }
+}
+
+@keyframes rotateOut {
+  0% {
+    transform: rotate(-12deg);
+    scale: (0.9);
+    opacity: 0;
+  }
+
+  100% {
+    transform: rotate(0deg);
+    scale: (1.0);
+    opacity: 1;
+  }
+}
+
+/* ################################## */
+
+
+
+
+
+
+/* ################################################ */
+/* Comandos para móviles */
+@media (max-width: 1550px) {
+  .logo_mark img {
+    display: none;
+  }
+
+  .button_decoration_links_direct {
+    text-decoration: solid;
+    padding: 0;
+    background-color: none;
+    border-radius: 0;
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.2s ease;
+  }
+
+
+  .button_decoration_links_direct:hover {
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+    transform: scale(1.07);
+  }
+}
+
+
+
+@media (max-width: 1090px) {
+
+  /* body {
+    height: 100dvh;
+  } */
+
+  #particle-canvas {
+    position: fixed;
+    z-index: -999;
+  }
+
+
+  body {
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    height: auto;
+    background-attachment: fixed;
+
+    flex-direction: column;
+    align-items: center;
+    /* align-items: right; */
+    justify-content: right;
+
+    scrollbar-width: 0;
+    overflow-x: hidden;
+  }
+
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    padding: 20px;
+    margin: 30px auto;
+  }
+
+
+  .contair_list {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    height: auto;
+    max-height: 999px;
+  }
+
+  .container_portafolios {
+    width: 83%;
+    padding: 20px;
+    margin: 30px auto;
+  }
+
+
+  .logo_mark img {
+    display: none;
+  }
+
+  .image_select_view {
+    display: none;
+  }
+
+  .image_decoration_view {
+    display: none;
+  }
+
+  .seccion3 {
+    display: none;
+  }
+
+  .seccion2 {
+    display: none;
+  }
+
+  h1 {
+    font-size: 1.0em;
+  }
+
+  h2 {
+    font-size: 1.0em;
+  }
+
+  h3 {
+    font-size: 0.8em;
+  }
+
+  .container_game {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+
+  .titule_h1_decoration {
+    font-size: 30px;
+    background-color: black;
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+    text-shadow: 0 2px 10px #d8bfff;
+    border-radius: 25px;
+  }
+
+
+  p,
+  li,
+  a {
+    font-size: 12px;
+    padding: 6px 6px 6px 6px;
+    margin-bottom: 15px;
+    gap: 30px;
+  }
+
+  .foster {
+    font-size: 8px;
+    margin: auto;
+  }
+
+  footer {
+    font-size: 4px;
+    margin-right: auto;
+  }
+
+  .bandcamp-player {
+    padding: 16px;
+    /* Reducir padding en pantallas pequeñas */
+  }
+
+  .bandcamp-iframe {
+    max-width: 100%;
+    /* Hacer que el iframe ocupe el 100% del contenedor */
+    height: auto;
+    /* max-height: min-content; */
+    max-height: 400px;
+    /* Reducir la altura de los iframes en pantallas pequeñas */
+    transition: none;
+  }
+
+
+  .bandcamp-iframe:hover {
+    transform: none;
+    /* Efecto de escala */
+    box-shadow: none;
+    /* Sombra más intensa */
+  }
+
+
+  .main_flex_grid {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    /* padding: 25px; */
+    margin: 0;
+    justify-items: center;
+    gap: 10px;
+  }
+
+
+  .main_center {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .banner_ul_list {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    padding: 0px 0px 0px 0px;
+  }
+
+
+  .button_return_menu {
+    font-size: 15px;
+    padding: 8px;
+    position: fixed;
+    top: 80%;
+    left: 75%;
+  }
+
+
+  .one {
+
+    background-color: rgb(17, 7, 16);
+    color: #fff;
+    animation: none;
+    transition: none;
+  }
+
+  .two {
+    background-color: rgb(17, 7, 16);
+    color: #fff;
+    animation: none;
+    transition: none;
+  }
+
+  .three {
+    background-color: rgb(17, 7, 16);
+    color: #fff;
+    animation: none;
+    transition: none;
+  }
+
+  .four {
+    background-color: rgb(17, 7, 16);
+    color: #fff;
+    animation: none;
+    transition: none;
+  }
+
+
+  .one:hover {
+    transform: none;
+  }
+
+  .two:hover {
+    transform: none;
+  }
+
+  .three:hover {
+    transform: none;
+  }
+
+  .four:hover {
+    transform: none;
+  }
+
+
+
+  .button_return_menu {
+    top: 90%;
+    transition: none;
+  }
+
+  .button_return_menu:hover {
+    background-color: none;
+  }
+
+
+  .button_decoration {
+    font-size: 12px;
+    padding: 6px 6px 6px 6px;
+  }
+
+  .profile-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  #art {
+    width: 0;
+    background-image: none;
+  }
+
+
+
+  footer {
+    font-size: 2px;
+    margin-right: auto;
+  }
+
+
+  .profile-img {
+    width: 120px;
+    height: 120px;
+  }
+}

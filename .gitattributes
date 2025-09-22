@@ -1,0 +1,43 @@
+# Fuerza todos los archivos de texto a usar LF (estándar en repos)
+* text=auto eol=lf
+
+# Markdown siempre LF
+*.md text eol=lf
+
+# Archivos de código
+*.py text eol=lf
+*.rb text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+# *.rpy text eol=lf
+
+# Archivos de configuración
+*.ini text eol=lf
+*.conf text eol=lf
+*.toml text eol=lf
+*.sh text eol=lf
+*.bash text eol=lf
+
+# Archivos binarios (no tocar)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.exe binary
+*.dll binary
+*.so binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.7z binary
+*.mp3 binary
+*.ogg binary
+*.wav binary
+*.mp4 binary
+*.mov binary

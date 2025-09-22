@@ -1,0 +1,252 @@
+/* Decoración del #IND  border: 0;ICE DERECHA */
+
+
+
+.container_list_load2 {
+    background-color: #000000ea;
+    margin-left: 0px;
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    padding: 55px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    /* min-height: 100vh; */
+    /* box-sizing: border-box; */
+}
+
+.devlog-section {
+    margin-top: 20px;
+}
+
+
+.notice-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 15px;
+    white-space: pre-line;
+    /* para que respete saltos en texto */
+    color: #eee;
+    margin-top: 20px;
+    height: auto;
+}
+
+p {
+    margin: 15px;
+    padding: 10px;
+    border: 0;
+}
+
+.notices-wrapper-background {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    border-radius: 15px;
+    margin-left: 500px;
+    /* Fondo semitransparente */
+    /* box-sizing: border-box; */
+}
+
+
+
+
+
+
+/* Decoración del #INDICE IZQUIERDA */
+
+
+#miSection {
+    z-index: 800;
+}
+
+
+
+#toggleButton {
+    display: none;
+}
+
+
+#indiceNotice {
+    list-style: none;
+    /* Quita los puntos por defecto */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px 0 40px 0;
+    /* Espacio entre items */
+}
+
+#indiceNotice li {
+    /* background-color: #9100b996; */
+    position: relative;
+    left: 10px;
+    padding: 0;
+    border-radius: 8px;
+}
+
+
+/* #indiceNotice li:hover {
+    background-color: rgba(170, 0, 142, 0.1);
+    transform: scale(1.01);
+} */
+
+/* Estilo de los enlaces dentro del índice */
+#indiceNotice a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #eee;
+    font-weight: bold;
+    font-size: 16px;
+    flex-direction: column;
+    margin: 10px;
+    width: 70%;
+}
+
+#indiceNotice a:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #d8bfff;
+}
+
+
+
+.side_scroll {
+    width: 380px;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 910px;
+}
+
+.side_scroll::-webkit-scrollbar {
+    width: 6px;
+}
+
+.side_scroll::-webkit-scrollbar-thumb {
+    /* background-color: rgb(168, 0, 173); */
+    background: linear-gradient(45deg, #fadafa, #63005a);
+    border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+.cabezal_h1 {
+    padding: 5px;
+}
+
+
+
+.notices-wrapper {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+.indice-noticias {
+    position: fixed;
+    left: 0;
+    width: 370px;
+    height: 140vh;
+    overflow-y: auto;
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+    /* transition: 0.2s ease; */
+}
+
+
+.class_js_use {
+    font-size: 0.7em;
+    color: #aaa;
+    background-color: #000;
+}
+
+
+.banner_s {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45vh;
+    /* overflow-y: auto;
+    max-height: 100vh; */
+}
+
+
+
+
+
+.button_decoration_list {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 16px 70px;
+    background-color: #9c009c;
+    border: 2px solid #3f2060;
+    border-radius: 30px;
+    margin: 40px 0 40px 0;
+    transition: all 0.4s ease;
+}
+
+.button_decoration_list:hover {
+    background: #000;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+    transform: scale(1.03);
+}
+
+
+
+
+
+
+
+@media (max-width: 1090px) {
+
+    .indice-noticias {
+        width: 90%;
+        height: 100vh;
+        overflow-y: auto;
+        /* transform: translateX(500), 1.2s; */
+    }
+
+
+    .class_js_use {
+        font-size: 0.8em;
+    }
+
+
+    #toggleButton {
+        display: flex;
+        margin-left: 180px;
+    }
+
+
+    .side_scroll {
+        width: 340px;
+        height: auto;
+    }
+
+    .container_list_load2 {
+        width: 70%;
+        border-radius: 20px;
+        padding: 24px;
+        /* min-height: 100vh; */
+        /* box-sizing: border-box; */
+    }
+
+    .banner_s {
+        margin-left: 0;
+    }
+
+
+
+
+}

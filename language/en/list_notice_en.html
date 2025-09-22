@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Notices - GalletaDev</title>
+    <link rel="stylesheet" href="../../style/style_general.css"> <!--archivo de estilos general-->
+    <link rel="stylesheet" href="../../style/style_indice.css"> <!--Para indices-->
+    <link rel="stylesheet" href="../../style/style_loading.css"> <!--index de cargar pantalla-->
+    <link rel="icon" href="../../img/logo.png" type="image/png">
+
+</head>
+
+
+<body id="main-content">
+    <section>
+        <div id="loader" class="loader"></div>
+        <div class="background-overlay"><canvas id="particle-canvas"></canvas></div>
+    </section>
+
+
+    <!-- Contenido de noticias -->
+    <section id="miSection">
+        <div class="notices-wrapper-background">
+            <div class="notices-wrapper">
+                <div class="indice-noticias">
+                    <nav class="side_scroll">
+                        <ul id="indiceNotice">
+                            <img class="logo_mark_list not_image_shadow_great" src="../../img/logo.png">
+                            <li>
+                                <a class="button_decoration_list" href="../../language/en/list_en.html">Return</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a class="button_return_menu" href="#main_menu" id="ReturnButton">$return_</a>
+
+    <!-- Lista de noticias -->
+    <section class="banner_s" id="main_menu">
+        <button class="button_decoration_movil banner_s" id="toggleButton">Menu</button>
+
+        <div class="container_list_load2">
+            <h1 class="cabezal_h1">GalletaDev Forums</h1>
+            <p>News and updates</p>
+            <div id="notices" class="devlog-section"></div>
+        </div>
+
+        <footer class="foster">
+            @GalletaDev 2025 | to read the privacy policies.
+            <a href="../../language/en/politic_en.html">go here</a>
+        </footer>
+
+    </section>
+
+
+
+
+
+    <script src="../../scripts/button_show_hide.js"></script>
+    <script src="../../scripts/particles.js"></script>
+    <script src="../../scripts/loading.js"></script>
+    <script src="../../scripts/save_notice_en.js"></script>
+
+
+
+</body>
+
+</html>

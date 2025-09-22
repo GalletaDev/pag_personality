@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pictures - GalletaDev</title>
+	<link rel="stylesheet" href="../../style/style_general.css">
+	<link rel="stylesheet" href="../../style/style_loading.css">
+	<link rel="stylesheet" href="../../style/gallery_decoration.css">
+	<link rel="stylesheet" href="../../style/style_button_toggleButton.css">
+	<link rel="icon" href="../../img/logo.png">
+</head>
+
+
+<body>
+	<section>
+		<div id="loader" class="loader"></div>
+		<div class="logo_mark"><img class="not_image_shadow_neutral" src="../../img/logo.png" alt=""></div>
+		<div class="background-overlay"><canvas id="particle-canvas"></canvas></div>
+	</section>
+
+	<section class="contair_list" id="main-content">
+		<!-- Botón que solo aparecerá en móviles -->
+		<button onclick="toggleMenu()" class="toggle-button">☰ Menu</button>
+
+		<ul id="menuList" class="collapse expanded">
+			<li><a class="button_decoration" href="../../index_en.html">Init</a></li>
+			<li><a class="button_decoration" href="../../language/en/list_en.html">List Developed</a></li>
+			<li><a class="button_decoration" href="../../language/en/portafolios_en.html">Portfolios</a></li>
+			<li><a class="button_decoration" href="../../language/en/music_list_en.html">Music</a></li>
+			<li><a class="button_decoration" href="../../language/en/list_notice_en.html">Notice-dev</a></li>
+			<li><a class="button_decoration" href="../../language/en/layer_image_en.html">Art</a></li>
+			<li><a class="button_decoration" href="../../language/en/politic_en.html">Politic and privacy</a></li>
+			<li>
+				<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+				<script type='text/javascript'>
+					kofiwidget2.init('Support me on Ko-fi', '#8d09a8', 'P5P6XJTB4');
+					kofiwidget2.draw();
+				</script>
+			</li>
+			<li>
+				<a href="mailto:galletadev512@gmail.com">
+					<img class="image_size not_image_shadow" src="../../img/gmail.webp" alt="gmail">
+				</a>
+			</li>
+		</ul>
+	</section>
+
+	<!-- main -->
+
+	<main class="container">
+		<section class="gallery">
+			<div id="gallery-container"></div>
+		</section>
+
+		<div id="modal" class="modal">
+			<span id="close">&times;</span>
+			<img class="modal-content" id="modal-img">
+			<div id="caption"></div>
+		</div>
+	</main>
+	<!-- ############# -->
+
+
+	<!-- Redes sociales -->
+	<section>
+		<div>
+			<ul class="button_link_img">
+				<li>
+					<a href="https://x.com/ArtickOw78959" target="_blank">
+						<img class="decoration_image_size" src="../../img/twitter.webp" alt="Twitter">
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/GalletaDev" target="_blank">
+						<img class="decoration_image_size" src="../../img/github.png" alt="github">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+
+	<!--footer-->
+	<footer class="foster">
+		@GalletaDev 2025 | para leer la políticas de privacidad.
+		<a href="../../language/es/politic.html">vaya aquí</a>
+	</footer>
+	<!--scripts-->
+	<script src="../../scripts/particles.js"></script>
+	<script src="../../scripts/loading.js"></script>
+	<script src="../../scripts/gallery.js"></script>
+	<script src="../../scripts/button_menu_toggleMenu.js"></script>
+
+
+
+</body>

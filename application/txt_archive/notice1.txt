@@ -1,0 +1,6 @@
+Título: GalletaDev Web
+Fecha: 2025-08-29
+Info:
+- Actualización de pagina noticias y contenido que se puede añadir mediante JSON
+- Uso de .JS avanzado para actualizaciones.
+- Trabajando en los estilos y decoraciones de la pagina

@@ -1,0 +1,243 @@
+body{
+    background-color: #ffffff;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* html {
+    display: flex;
+    justify-content: center;
+} */
+
+li {
+    list-style: none;
+    margin: 1rem;
+    
+}
+
+ul {
+    padding: 0;
+}
+
+/*###############REGULAR#################*/
+
+
+.regular {
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(248, 31, 230);
+    margin: 0;
+}
+
+.precio {
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+.forever {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    color: grey;
+    opacity: 0.6;
+
+}
+
+/*#######################################*/
+
+
+/*###############bUSINESS#################*/
+
+
+.business {
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(170, 0, 255);
+    margin: 0;
+}
+
+
+
+
+/*#######################################*/
+
+
+/*###############advance#################*/
+
+.advance {
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(197, 18, 251);
+    margin: 0;
+}
+
+
+
+/*#######################################*/
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las cajas se acomoden en varias líneas en pantallas pequeñas */
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+    margin-top: 4rem;
+}
+
+
+.cajas-precios {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las cajas se acomoden en varias líneas en pantallas pequeñas */
+    gap: 20px;
+}
+
+.caja {
+    display: grid;
+    justify-content: center;
+    height: 680px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    outline: solid;
+    outline-color: rgb(255, 0, 200);
+    transition: 0.2s ease;
+}
+
+.caja:hover {
+    transform: scale(1.08);
+    background-color: rgb(255, 194, 244);
+}
+
+
+
+.caja img {
+    display: flex;
+    justify-content: center;
+    width: 35rem;
+    height: 10rem;
+}
+
+
+.caja button {
+    text-decoration: none;
+    background: linear-gradient(to bottom, #a0049b, #61007a);
+    margin: 0 4rem;
+    border-radius: 10rem;
+    padding: 0.9rem;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    outline: none;
+    transition: 0.2s ease;
+}
+
+.caja button:hover {
+    color: rgb(0, 0, 0);
+    background: #fff;
+}
+
+
+.check {
+    border: solid;
+    border-width: 2px;
+    padding: 0 2px;
+    border-radius: 20px;
+    color: rgb(73, 255, 73);
+}
+
+
+.cross {
+    border: solid;
+    border-width: 2px;
+    padding: 0 1.5px;
+    border-radius: 20px;
+    color: rgb(223, 26, 26);
+}
+
+
+
+
+.container_mini {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.button_decoration_card {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 16px 28px;
+    background-color: #99008cde;
+    border: 2px solid #190036;
+    border-radius: 30px;
+    color: #fff;
+    /* border-radius: 30px 0 0 30px; */
+    border: 20px;
+    margin: 40px 0 40px 0;
+    transition: all 0.2s ease;
+    list-style: none;
+}
+
+.button_decoration_card:hover {
+    background: #000;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .caja {
+        width: 90%;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .caja img {
+        width: 100%;
+        height: auto;
+    }
+
+    .caja button {
+        margin: 1rem auto;
+        font-size: 1.5rem;
+        padding: 0.7rem;
+        display: block;
+        width: 80%;
+    }
+    .caja:hover {
+        transform: none;
+    }
+
+    .precio {
+        font-size: 3rem;
+    }
+
+    .regular,
+    .business,
+    .advance {
+        font-size: 1.5rem;
+    }
+
+    .forever {
+        font-size: 0.9rem;
+    }
+
+    .cajas-precios {
+        flex-direction: column;
+        align-items: center;
+    }
+}

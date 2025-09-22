@@ -1,0 +1,52 @@
+[   
+    {
+        "title": "GalletaDev Web",
+        "day": "2025-09-19",
+        "info": [
+            "Actualización de lenguaje en ingles y español"
+        ]
+    },
+    {
+        "title": "GalletaDev Web",
+        "day": "2025-09-10",
+        "info": [
+            "Actualización de pagina y decoration dinámica y atractiva.",
+            "Puede que decore aun mas y arregle uno que otro detalle para móviles",
+            "Algunas acciones mejor acomodados",
+            "Actualización de portafolios e information"
+        ]
+    },
+    {
+        "title": "GalletaDev Web",
+        "day": "2025-09-02",
+        "info": [
+            "Actualización de pagina noticias y contenido que se puede añadir mediante Python y formatos de txt",
+            "actualización de .JS",
+            "Decoration mejorado de pagina",
+            "Mas information de lo que hago y rendimiento"
+        ]
+    },
+    {
+        "title": "GalletaDev Web",
+        "day": "2025-08-29",
+        "info": [
+            "Actualización de pagina noticias y contenido que se puede añadir mediante JSON",
+            "Uso de .JS avanzado para actualizaciones.",
+            "Trabajando en los estilos y decoraciones de la pagina"
+        ]
+    },
+    {
+        "title": "Little Secrets",
+        "day": "2025-07-22",
+        "info": [
+            "Aniversario de un 1 año de desarrollo del proyecto <a class='button_decoration_links_direct' href='https://x.com/ArtickOw78959' target=_blank'>Twitter aqui</a>"
+        ]
+    },
+    {
+        "title": "Little Secrets-2",
+        "day": "2024-07-22",
+        "info": [
+            "Inicio del proyecto game, noticias disponible en <a class='button_decoration_links_direct' href='https://x.com/ArtickOw78959' target=_blank'>Twitter aqui</a>"
+        ]
+    }
+]
