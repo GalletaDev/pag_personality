@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background: #f0f0f0;
+}
+
+h1 {
+    margin: 20px 0;
+    color: white;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+
+.section_container {
+    display: flex;
+    flex-direction: column;
+    background-color: #2e002a;
+    border-radius: 30px;
+    padding: 30px;
+    align-items: center;
+    margin-top: 8vw;
+}
+
+
+
+#mesa {
+    display: grid;
+    grid-template-columns: repeat(6, 80px);
+    gap: 22px;
+    justify-content: center;
+}
+
+.tarjeta {
+    width: 84px;
+    height: 84px;
+    background-color: #88007d;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    cursor: pointer;
+    perspective: 600px;
+    transition: transform 0.3s;
+}
+
+.tarjeta_contenido {
+    display: none;
+}
+
+.tarjeta.volteada .tarjeta_contenido {
+    display: block;
+}
+
+.tarjeta.volteada {
+    background-color: #fff;
+}
+
+
+/* Animación de error (sacudida y rojo) */
+@keyframes error {
+    0% {
+        transform: scale(1);
+        background-color: #ff0000;
+    }
+
+    50% {
+        transform: scale(1.05);
+        background-color: #ff9999;
+    }
+
+    100% {
+        transform: scale(1);
+        background-color: #d10000;
+    }
+}
+
+.tarjeta--error {
+    animation: error 0.5s ease;
+}
+
+
+
+@keyframes acierto {
+    0% {
+        background-color: #90ee90;
+        transform: scale(1);
+    }
+
+    50% {
+        background-color: #4caf50;
+        transform: scale(1.05);
+    }
+
+    100% {
+        background-color: #90ee90;
+        transform: scale(1);
+    }
+}
+
+.tarjeta--acierto {
+    animation: acierto 0.5s ease;
+}

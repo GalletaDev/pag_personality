@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #670000;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  column-count: 3;
+  column-gap: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    column-count: 2;
+  }
+}
+
+.card {
+  background: #fff;
+  margin: 0 0 1.5rem;
+  display: inline-block;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  break-inside: avoid;
+  transition: 0.1s ease;
+}
+
+
+
+button {
+  color: #fff;
+  background-color: #000;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 24px;
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  /* Quita el borde predeterminado */
+  outline: none;
+  /* Quita el contorno al hacer focus */
+}
+
+button:hover {
+  background-color: red;
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+
+}
+
+
+.card img {
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #eee;
+}
+
+.description {
+  padding: 15px;
+  font-size: 14px;
+  color: #444;
+}
+
+
+
+
+.logo_mark img {
+  position: fixed;
+  justify-content: left;
+  top: 10px;
+  left: 10px;
+  z-index: -1;
+  height: auto;
+  pointer-events: none;
+  /* para que no interfiera con clicks */
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 15px;
+  opacity: 0.5;
+}

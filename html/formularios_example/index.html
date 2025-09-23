@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formulario KFC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+            <div class="logo">
+                <!-- Puedes cambiar el src por el logo de KFC si lo deseas -->
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/KFC_logo.svg/512px-KFC_logo.svg.png"
+                    alt="KFC Logo">
+            </div>
+
+            <h2>Contáctenos</h2>
+
+            <form netlify>
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+
+                <label for="sucursal">Sucursal visitada</label>
+
+                <select id="sucursal" name="sucursal">
+                    <option value="">Selecciona una opción</option>
+                    <option value="centro">Centro</option>
+                    <option value="norte">Norte</option>
+                    <option value="sur">Sur</option>
+                </select>
+
+                <label for="mensaje">Tu Comentario</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Comentarios..."></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <h2>Por si acaso no envié nada, solo es un ejemplo de formulario, y no se conecta con nada</h2>
+
+            <div class="footer">
+                © 2025 KFC | Este formulario es un ejemplo visual
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

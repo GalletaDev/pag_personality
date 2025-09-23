@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pag 5a</title>
+	<link rel="base" href="index.html" />
+	<link rel="icon" type="image/png" href="img/favicon.png"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+
+<body>
+	<header>
+
+		<div class="container">
+			<img src="img/favicon.png" width="200" height="170">
+			<h1>Gogo15.com</h1>
+
+			<ul>
+        		<li><a href="index.html">Volver a principal 🌎</a></li>
+			</ul>
+		</div>
+
+	</header>
+
+	<article>
+		<h2>Mapa interactivo de imagen</h2>
+
+		<!-- Imagen con mapa -->
+		<img 
+			src="img/img_maps.png" 
+			usemap="#mapa-interactivo" 
+			alt="Mapa de ejemplo">
+
+		<!-- Mapa de coordenadas -->
+		<map name="mapa-interactivo">
+			<!-- Rectángulo (x1, y1, x2, y2) -->
+    		<area alt="Ir a ubicacion1" title="Ir a ubicacion1" href="#ubicacion1" coords="306,564,260,612" shape="rect">
+    		<area alt="Ir a ubicacion2" title="Ir a ubicacion2" href="#ubicacion2" coords="689,558,732,597" shape="rect">
+    		<area alt="Ir a ubicacion3" title="Ir a ubicacion3" href="#ubicacion3" coords="1124,600,1168,649" shape="rect">
+
+		</map>
+	</article>
+
+
+	<section id="ubicacion1">
+		<h1>Ubicación 1: Montaña Azul</h1>
+		<img src="img/montain.jpg" alt="m1" width="600">
+		<p>La Montaña Azul es conocida por sus hermosas vistas, su flora única y su atmósfera misteriosa. Es un punto turístico muy visitado.</p>
+	</section>
+
+	<section id="ubicacion2">
+		<h1>Ubicación 2: Lago Cristalino</h1>
+		<img src="img/lago.jpg" alt="l1" width="600">
+		<p>El Lago Cristalino es una joya escondida en el valle. Sus aguas claras reflejan el cielo y están rodeadas por bosques antiguos.</p>
+	</section>
+
+	<section id="ubicacion3">
+		<h1>Ubicación 3: Ciudad Dorada</h1>
+		<img src="img/city.jpg" alt="c1" width="600">
+		<p>La Ciudad Dorada es una metrópolis antigua llena de historia, cultura y arquitectura impresionante que data de siglos atrás.</p>
+	</section>
+
+
+	<style>
+		.fooster {
+			color: #fff;
+		}
+	</style>
+
+	<footer><p class="fooster">@ Pag Web GalletaDev</p></footer>
+
+</body>
+</html>

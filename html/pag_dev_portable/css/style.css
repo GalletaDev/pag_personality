@@ -1,0 +1,222 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body y fuente */
+body {
+  font-family: 'rubik_n', sans-serif;
+  color: #000;
+  line-height: 1.3;
+  padding: 20px;
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+}
+
+
+
+
+
+body::before {
+  content: "";
+  position: fixed; /* o absolute */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://www.imagui.com/i/fondo-negro-wallpapers-taringa-34727738.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.9;  /* controla la transparencia */
+  z-index: -1;   /* para que quede atrás del contenido */
+}
+
+
+
+
+
+
+.body_2::before {
+  content: "";
+  position: fixed; /* o absolute */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://cdn.pixabay.com/photo/2020/08/10/09/57/lake-5477367_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;  /* controla la transparencia */
+  z-index: -1;   /* para que quede atrás del contenido */
+}
+
+
+
+/* Header */
+header {
+  font-family: 'rubik_n', sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+.image_icon {
+  display: block;
+  width: 440px;
+  height: auto;
+
+}
+
+
+.h1_text {
+  text-align: left;
+  font-family: 'rubik_n', sans-serif;
+  color: #fff;
+  font-size: 4.0rem;
+  margin-bottom: 15px;
+  padding-bottom: 1px;
+}
+
+
+header img {
+  width: 180px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  margin-bottom: 15px;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+/* Menú horizontal */
+header ul {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  list-style: none;
+  padding: 0px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 12px 25px;
+  border: 2px solid #000;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+header ul li a:hover {
+  background-color: #000;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Secciones */
+section {
+  background-color: white;
+  padding: 25px 30px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section h2 {
+  font-family: 'rubik_italic', sans-serif;
+  color: #222;
+  font-size: 1.9rem;
+  margin-bottom: 15px;
+  border-bottom: 3px solid #7c00ff;
+  padding-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Definiciones */
+dt {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #7c00ff;
+  margin-top: 15px;
+}
+
+dd {
+  margin-left: 20px;
+  margin-top: 8px;
+  text-align: justify;
+  font-size: 1rem;
+  color: #444;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  header ul {
+    flex-direction: column;
+    gap: 12px;
+  }
+  header ul li a {
+    padding: 10px 15px;
+    font-size: 0.95rem;
+  }
+}
+
+
+footer {
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: 'declair_head';
+  src: url('../fonts/declair_head.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'rubik_n';
+  src: url('../fonts/rubik_normal.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'rubik_italic';
+  src: url('../fonts/rubik_italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+.container {
+  color: #bb4ccd;
+  background: #441675;
+  max-width: auto;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 19px rgba(0, 0, 0, 0.5);
+  padding: 25px 60px;
+  text-align: center;
+}
