@@ -701,7 +701,7 @@ img {
 @media (max-width: 1090px) {
   .banner_ul_list_columns {
     gap: 25px;
-    margin: 10px;
+    margin: 0px;
   }
 }
 
@@ -754,7 +754,7 @@ img {
   }
 
   .container_portafolios {
-    width: 83%;
+    width: 89%;
     padding: 20px;
     margin: 30px auto;
   }
