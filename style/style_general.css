@@ -701,7 +701,7 @@ img {
 @media (max-width: 1090px) {
   .banner_ul_list_columns {
     gap: 25px;
-    margin: 40px 40px 40px 40px;
+    margin: 10px;
   }
 }
 
