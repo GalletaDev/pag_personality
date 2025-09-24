@@ -55,6 +55,9 @@ ul {
   #menuList.expanded {
     display: none;
   }
+  ul {
+    gap: 0;
+  }
 }
 
 /* EN pantallas grandes, siempre mostrar el menú */
