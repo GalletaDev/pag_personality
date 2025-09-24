@@ -11,6 +11,11 @@ ul {
 }
 
 
+.banner_ul_toggle {
+  gap: 15px;
+}
+
+
 /* Estilos base */
 .toggle-button {
   display: none;
@@ -55,9 +60,15 @@ ul {
   #menuList.expanded {
     display: none;
   }
+
   ul {
     gap: 0;
   }
+
+  .banner_ul_toggle {
+    gap: 15px;
+  }
+
 }
 
 /* EN pantallas grandes, siempre mostrar el menú */
