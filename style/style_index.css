@@ -405,6 +405,7 @@ a {
 @media (max-width: 1090px) {
   .fixed_banner_index {
     font-size: 13px;
+    padding: 13px 0 0 0;
   }
 }
 
